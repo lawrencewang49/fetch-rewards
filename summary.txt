@@ -1,0 +1,15 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+I chose Python and Flask because they are lightweight and efficient for prototyping REST APIs. Flask's simplicity allows for quick development and clear code structure.
+
+2. What are the advantages and disadvantages of your solution?
+Advantages:
+- The code is modular and uses built-in data structures.
+- Easily extensible to handle multiple users.
+- Efficient at adding and retrieving balances
+Disadvantages:
+- The solution keeps data in memory, making it unsuitable for production without persistence.
+- As the number of users and transactions being made grows, sorting the list of transactions each time a user wants to spend becomes inefficient
+    - Solution: use a min-heap when adding points so we don't have to sort each time we want to spend
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+One project that I've completed recently was a Dog-breed guesser. It was interesting to me because I had just finished learning about Convolutional Neural Networks, which essentially give a computer eyes, and how they are used to allow a computer identify what is in an image. It amazed me that we would be able to give a computer senses, so I wanted to do my own project that used these Convolutional Neural Networks to deepen my understanding of how they worked. I recently completed the project with an accuracy rate of about 70% when guessing the dog breeds of different images of dogs, but I would still like to improve upon this accuracy rate and work on it little by little until I am satisfied. I’ve really struggled with this accuracy as I first started out with roughly 15% accuracy. My model wasn’t being trained properly and I need to modify how I would go about analyzing these different inputs so that my model would be able to better understand and predict future images. Debugging performance issues and understanding the nuances of backpropagation were both challenging and rewarding. I also struggled with keeping my code clean as the more I worked on it, the more cluttered my code became so I needed to set time aside and really read through what was going on in each line that I wrote. This project as a whole helped me improve as programmer, as it taught me how to better approach solving such a large problem, how to break the problem down into smaller steps, and how I wanted to implement each step and combine them in order to solve the larger problem at hand.
