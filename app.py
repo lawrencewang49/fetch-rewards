@@ -54,7 +54,6 @@ def spend_points():
 
 @app.route('/balance', methods=['GET'])
 def get_balance():
-    print(balances)
     return jsonify(balances), 200
 
 
